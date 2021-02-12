@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.easonchang.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Eason\'s Playground - blog by Eason Chang',
+  subtitle: 'Let\'s make something awesome!\n',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'eason-playground',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'G-1PV8TYLCLX',
   useKatex: false,
   menu: [
     {
@@ -25,19 +25,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Eason Chang',
+    photo: '/bio-img.jpeg',
+    bio: 'Hi, I am Eason!',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'eason@easonchang.com',
+      facebook: 'chang.ying.hsiang',
+      telegram: '',
+      twitter: '',
+      github: 'Kamigami55',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'easonchang101',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
