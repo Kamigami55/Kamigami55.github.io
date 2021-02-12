@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Let\'s make something awesome!\n',
   copyright: '© All rights reserved.',
   disqusShortname: 'eason-playground',
-  postsPerPage: 4,
+  postsPerPage: 10,
   googleAnalyticsId: 'G-1PV8TYLCLX',
   useKatex: false,
   menu: [

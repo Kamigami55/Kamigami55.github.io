@@ -19,7 +19,8 @@ export type PageContext = {
   prevPagePath: string,
   nextPagePath: string,
   hasPrevPage: boolean,
-  hasNextPage: boolean
+  hasNextPage: boolean,
+  postsLimit: number
 };
 
 export type Node = {
