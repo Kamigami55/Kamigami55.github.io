@@ -12,16 +12,16 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: '文章',
       path: '/'
     },
     {
-      label: 'About me',
+      label: '關於我',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: '專案',
+      path: '/pages/projects'
     }
   ],
   author: {
