@@ -12,7 +12,7 @@ tags:
   - MakeNTU
   - Maker
 category: Project
-socialImage: ./smart-gloves-cover.png
+socialImage: "./smart-gloves-cover.png"
 date: 2018-04-01 22:27:00
 template: "post"
 draft: false

@@ -4,7 +4,7 @@ tags:
   - Chatbot
   - Slack
 category: Chatbot
-socialImage: 'https://imgur.com/wnDgpFG.png'
+socialImage: "https://imgur.com/wnDgpFG.png"
 date: 2017-03-10 02:57:00
 template: "post"
 draft: false

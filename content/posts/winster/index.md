@@ -8,7 +8,7 @@ tags:
   - ARM Design Contest
   - Web
 category: Project
-socialImage: ./winster-cover.png
+socialImage: "./winster-cover.png"
 date: 2018-04-02 16:56:00
 template: "post"
 draft: false
