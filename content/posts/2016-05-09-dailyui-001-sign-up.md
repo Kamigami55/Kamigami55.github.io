@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/rWNKTqv.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/05/09/dailyui-001-sign-up/
 ---
 
 # 我今天做了什麼

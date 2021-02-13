@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/5qKslKE.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/05/10/dailyui-003-landing-page/
 ---
 
 這是今天DailyUI的成果，極限圈的Landing Page。

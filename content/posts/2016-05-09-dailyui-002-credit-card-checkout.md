@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/hEbjURo.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/05/09/dailyui-002-credit-card-checkout/
 ---
 
 [點我試試Live Demo](http://kamigami55.github.io/DailyUI/002_creditCardCheckout/)

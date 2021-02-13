@@ -14,6 +14,8 @@ socialImage: "./scifi-trophy-cover.png"
 template: "post"
 draft: false
 description: "科幻風造型獎盃，是我在2017年11月時，受新竹黑客松官方委託打造的，希望能呈現出科技感、及體現創客們的創造力。"
+redirect_from:
+  - /2018/04/04/scifi-trophy/
 ---
 
 ## 簡介

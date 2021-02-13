@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/HqlXDN7.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/04/16/10-keys-of-elon-musk/
 ---
 
 《他是玩真的！：「鋼鐵人」伊隆·馬斯克改變未來的10種能力》

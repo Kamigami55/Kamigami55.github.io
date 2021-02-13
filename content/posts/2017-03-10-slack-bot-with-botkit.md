@@ -1,3 +1,4 @@
+---
 title: Botkit初體驗，寫一隻Slack聊天機器人吧！
 tags:
   - Botkit
@@ -9,6 +10,8 @@ date: 2017-03-10 02:57:00
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2017/03/10/slack-bot-with-botkit/
 ---
 # Botkit初體驗，寫一隻Slack聊天機器人吧！
 

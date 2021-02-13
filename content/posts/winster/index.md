@@ -13,6 +13,8 @@ date: 2018-04-02 16:56:00
 template: "post"
 draft: false
 description: "「智慧釀藏酒大師 Winster」，是一套幫助您釀酒和控管酒況的釀藏酒平台。主要能夠提供專業釀酒玩家、小型釀酒企業，酒的品種以及產地的分析和釀酒過程的錯誤偵測。"
+redirect_from:
+  - /2018/04/02/winster/
 ---
 
 ## 簡介

@@ -7,6 +7,8 @@ tags: [Reading]
 category: Reading
 description: "提升商業書「閱讀效益」，以「投資」的角度進行閱讀。"
 socialImage: "https://i.imgur.com/9V5G9NC.jpg"
+redirect_from:
+  - /2015/10/27/lever-reading/
 ---
 
 《槓桿閱讀術》

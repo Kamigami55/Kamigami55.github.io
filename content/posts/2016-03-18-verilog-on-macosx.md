@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/5qKcx3Q.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/03/18/verilog-on-macosx/
 ---
 
 > 一句話摘要：使用Icarus Verilog來編譯Verilog、使用GTKWave來顯示波形

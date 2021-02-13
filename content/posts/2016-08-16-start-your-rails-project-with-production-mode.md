@@ -7,6 +7,8 @@ socialImage: "https://imgur.com/a21E49E.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/08/16/start-your-rails-project-with-production-mode/
 ---
 
 # Quick Reference:

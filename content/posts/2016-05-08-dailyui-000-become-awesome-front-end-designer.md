@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/yMgo3z4.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/05/08/dailyui-000-become-awesome-front-end-designer/
 ---
 
 # 什麼是 DailyUI

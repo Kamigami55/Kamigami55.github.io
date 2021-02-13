@@ -15,6 +15,8 @@ date: 2018-03-30 16:40:00
 template: "post"
 draft: false
 description: "專案目的是開發低成本的智慧導盲犬，取代需要龐大成本訓練的傳統導盲犬，造福盲人朋友的生活。"
+redirect_from:
+  - /2018/03/30/sigmago/
 ---
 
 相關連結：

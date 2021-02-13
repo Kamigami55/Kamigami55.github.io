@@ -7,6 +7,8 @@ socialImage: "https://imgur.com/3B3Hrd4.png"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/08/18/using-ssh-with-putty-key-on-macos/
 ---
 
 # Quick Reference：

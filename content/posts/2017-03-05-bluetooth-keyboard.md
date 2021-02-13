@@ -7,6 +7,8 @@ socialImage: "https://imgur.com/HXjQPNQ.png"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2017/03/05/bluetooth-keyboard/
 ---
 
 今天我們要實作簡易藍芽鋼琴APP！

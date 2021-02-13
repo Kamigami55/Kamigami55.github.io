@@ -7,6 +7,8 @@ socialImage: "https://i.imgur.com/P0nkaLj.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/03/17/less-but-better/
 ---
 
 《少，但是更好(Essentialism)》

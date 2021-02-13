@@ -7,6 +7,8 @@ socialImage: "https://imgur.com/PNh6wWF.jpg"
 template: "post"
 draft: false
 description: ""
+redirect_from:
+  - /2016/11/18/myth-of-charisma/
 ---
 
 
