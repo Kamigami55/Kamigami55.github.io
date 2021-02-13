@@ -14,7 +14,8 @@
     "lint": "concurrently \"yarn lint:js\" \"yarn lint:scss\" \"yarn flow\"",
     "test": "jest --config ./jest/jest-config.js",
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
-    "test:watch": "jest --watch --config ./jest/jest-config.js"
+    "test:watch": "jest --watch --config ./jest/jest-config.js",
+    "post": "hygen post new"
   },
   "repository": "https://github.com/Kamigami55/Kamigami55.github.io",
   "author": "Eason Chang <eason@easonchang.com>",
