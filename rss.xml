@@ -1,5 +1,447 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Eason's Playground - blog by Eason Chang]]></title><description><![CDATA[Let's make something awesome!
-]]></description><link>https://www.easonchang.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Feb 2021 17:28:57 GMT</lastBuildDate><item><title><![CDATA[【專案】科幻風造型獎盃]]></title><description><![CDATA[科幻風造型獎盃，是我在2017年11月時，受新竹黑客松官方委託打造的，希望能呈現出科技感、及體現創客們的創造力。]]></description><link>https://www.easonchang.com/posts/scifi-trophy/</link><guid isPermaLink="false">https://www.easonchang.com/posts/scifi-trophy/</guid><pubDate>Wed, 04 Apr 2018 00:31:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;簡介&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B0%A1%E4%BB%8B&quot; aria-label=&quot;簡介 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;簡介&lt;/h2&gt;
+]]></description><link>https://www.easonchang.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Feb 2021 14:51:16 GMT</lastBuildDate><item><title><![CDATA[部落格搬遷紀錄，用 Gatsby.js 取代 Hexo]]></title><description><![CDATA[當完兵過年期間閒的蛋疼，想要嘗試新技術，於是決定用 Gatsby.js 來重架部落格啦！]]></description><link>https://www.easonchang.com/posts/2021-02-13-migrate-to-gatsby/</link><guid isPermaLink="false">https://www.easonchang.com/posts/2021-02-13-migrate-to-gatsby/</guid><pubDate>Sat, 13 Feb 2021 05:57:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;為何要改用-gatsbyjs-架構&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%82%BA%E4%BD%95%E8%A6%81%E6%94%B9%E7%94%A8-gatsbyjs-%E6%9E%B6%E6%A7%8B&quot; aria-label=&quot;為何要改用 gatsbyjs 架構 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;為何要改用 Gatsby.js 架構&lt;/h2&gt;
+&lt;p&gt;我從2015年左右開始寫部落格，一開始是開在 &lt;a href=&quot;https://logdown.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Logdown&lt;/a&gt; 平台上，後來因為它停止維護了，於是改用 &lt;a href=&quot;https://hexo.io/zh-tw/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Hexo&lt;/a&gt; 自己建，並託管在 Github Pages 上。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fddb66e0269836b34fc4ced4fcb801ad/d9ed5/old-blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADGElEQVQ4y12Q+0+TZxzF33/NTWa8hSVAxYik2sIK1EorUGDQ2spttCj3XhRoSwt9n7fItjh/IpvRxWzJ/IUtBnVsrBt0GO4QoKXw2dMCi/FJTp4n53vO+Z73VSwd31Dtnqbcruahb1QxNKtUtarcuqtidsq3Q8XiUrnTrnLbLXl3ApMzQYUjQaVzCmOrhsk1xReuBEpbn8A7rNHr1xh6qOEf0QiOaYyGNUZCKmNhlXBEYlwlFBE8Cmn4HgmpFQwEBfd9As+QoGtAcK9XoLgfaLTLUM+gYFAKAiOC4KigPyAYjz9lbOI7iSeEYk/wj07T61Pzi3PokyV6ZJlu6e3s12jr01CavxK0dAscHoGrR+Du0XB6hRxOE9JeEPv6JYGxp0QevyAYm8F1X2rlvFXqc96mLkFjp6ChQ2C7JxuanZNY3XHq2uI0d6k4PSp3JULiOYlvfyQ0EsfnTzA4EGY88YzB8PdYnDFuu+JUt05S0TTBDXuM63VRdNYIit4elWQUU3MUiyOKzT1Bffsk1dYeDGVmaipbcHunMBtsXC81YbL1ybmgVpao+jKKsXEcfX2Ea7YwJbUhlLPGIc5XDFFoGkZn9lFs7KKo3MHFgmI+KTBSrPdgbQpgvtPP5Ys3KfisjPNXWii80c3nVT4uVR77zxmH+dQwjHKmJsDZaj8XbgXRNUQpMrgpKbejK7NxtcJLVV0QZ3uYTm+MGtsDiq5ZuaCrpfCmkyuNUQprg1y2BLlkecg5cwBlL31A+iDL5vYOv/+xwF/Jv3nz9h3/LC6RkXwmc3CCTP5OZ7JsS+1vv75m/s8kqxs7eV0uJweFk5Pe3+ffVIpUaonFxUWWl5fZ2trKY2NjXYZsy/cm2WyW9+9T2PWlNFwt4aeXr44Djo7yl3J08tjb22d1dZWVlRXW1tZYXz8O2dw8Dk2n01KzR/bwkPTOFh31NiylJbx+9XPen1uUy/o/MEeckjkcSuPp7OOTzaT55fkzfpiZkV+1dFLwo4a7u7vMz88zNzfH7OwsCwsLJJNJ9uWvODV8uHxX8ge5EnLxh4H/ASBRGM222BQYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/fddb66e0269836b34fc4ced4fcb801ad/8ac56/old-blog.webp 240w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/d3be9/old-blog.webp 480w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/e46b2/old-blog.webp 960w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/f992d/old-blog.webp 1440w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/882b9/old-blog.webp 1920w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/d3d72/old-blog.webp 2880w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/fddb66e0269836b34fc4ced4fcb801ad/8ff5a/old-blog.png 240w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/e85cb/old-blog.png 480w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/d9199/old-blog.png 960w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/07a9c/old-blog.png 1440w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/29114/old-blog.png 1920w,
+/static/fddb66e0269836b34fc4ced4fcb801ad/d9ed5/old-blog.png 2880w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/fddb66e0269836b34fc4ced4fcb801ad/d9199/old-blog.png&quot;
+            alt=&quot;舊部落格&quot;
+            title=&quot;舊部落格&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;而現在會想改架構原因如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;前陣子因為在忙畢業和當兵，好一陣子沒更新部落格了，而且又換了新筆電，舊的 Hexo 設定要花時間重新熟悉&lt;/li&gt;
+&lt;li&gt;這兩年都在玩 React.js，一直很想用 &lt;a href=&quot;https://www.gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gatsby.js&lt;/a&gt; 這套基於 React.js 的靜態網頁生成框架來做點什麼&lt;/li&gt;
+&lt;li&gt;當完兵過年期間閒得蛋疼，想學點新技術恢復開發手感&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;於是決定用 Gatsby.js 來重架部落格啦！&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a92a9cecf0de45d36003dafb7772ad41/d9ed5/gatsby.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACQElEQVQ4y2VTTW/aQBDlj/cH9NBWSvpxag89IfXrVCW9NKlQQypCQxQcXBIMGBvbsAaTGGzvevd1bIMDZOXReGdHb9+8ma0sTkYYPTuH9foG3RfXaL1so/FWx6/DDurVPuI4gRACaZruGOccURRD/2uirzsUK3IqiZJYgmN/ybVPYg7BU6gsoB7PBQFyLtBvTzDuzcp4JU+iZJUqKCGRRnQTl+CJRLIkv1RIwsxLiERBUl4qM9sloJTKrbL5yVkRE0QFWyVovwL4gtgEhZfxFsAaRBK4kqoErZSH66BtzKCdWbD1AJ2ag16doVubYNicYdDy0W14GGgMYRCtQVASykveMNwAWrc+Gj8MXBwbuDwaolbt4OzTLa6OLDS/D1D7puHy1ACzH5AghpBpyW6t4SO6lIUwnuPhS/UrPrz5iOr7zzh8/i73p0c1HLw6gGVbeV7IQ6RqD1BtbbK2x1GCwA8xNqYwNRdjbYbehY3BlYNxl8EzfSwf4nyctrXbLTlTkb7wPsR0OoXP5mBugKkZ5CCjjgeXtGVWgNn0Hr5P54xhtVrtdLhoSimq2h0DqkRkumdGjZfkZZJV8WRkS4bl2BSDKnH7z4BlOjm25MWM2O4cjUsds2BZAvBlDK3ZhnFzR5eIvabQyvRwLYb+nQmzb4NN5vTcUnpaEYauD60/hsMCyiPteILJwMGw3YOlD8BMF1zwpwwn1hyt33e4/mNgQU3JmdAbrnc9HLdoZKhJWRMSApzTJfZPHfaJjrnn7wD+Bx5W3n8I60e5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/a92a9cecf0de45d36003dafb7772ad41/8ac56/gatsby.webp 240w,
+/static/a92a9cecf0de45d36003dafb7772ad41/d3be9/gatsby.webp 480w,
+/static/a92a9cecf0de45d36003dafb7772ad41/e46b2/gatsby.webp 960w,
+/static/a92a9cecf0de45d36003dafb7772ad41/f992d/gatsby.webp 1440w,
+/static/a92a9cecf0de45d36003dafb7772ad41/882b9/gatsby.webp 1920w,
+/static/a92a9cecf0de45d36003dafb7772ad41/d3d72/gatsby.webp 2880w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/a92a9cecf0de45d36003dafb7772ad41/8ff5a/gatsby.png 240w,
+/static/a92a9cecf0de45d36003dafb7772ad41/e85cb/gatsby.png 480w,
+/static/a92a9cecf0de45d36003dafb7772ad41/d9199/gatsby.png 960w,
+/static/a92a9cecf0de45d36003dafb7772ad41/07a9c/gatsby.png 1440w,
+/static/a92a9cecf0de45d36003dafb7772ad41/29114/gatsby.png 1920w,
+/static/a92a9cecf0de45d36003dafb7772ad41/d9ed5/gatsby.png 2880w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/a92a9cecf0de45d36003dafb7772ad41/d9199/gatsby.png&quot;
+            alt=&quot;Gatsby.js官網&quot;
+            title=&quot;Gatsby.js官網&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;搬遷過程&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%90%AC%E9%81%B7%E9%81%8E%E7%A8%8B&quot; aria-label=&quot;搬遷過程 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;搬遷過程&lt;/h2&gt;
+&lt;p&gt;之前用 Hexo 時，30篇文章是 Markdown 格式的 .md 檔，檔案都還留著，而 Gatsby.js 也支援使用 .md 檔來生成靜態頁面，和 Hexo 的運作邏輯基本一致。&lt;/p&gt;
+&lt;p&gt;因此搬遷流程不會太複雜：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 Gatsby 建立新專案&lt;/li&gt;
+&lt;li&gt;把 30 個文章 .md 檔移過去&lt;/li&gt;
+&lt;li&gt;調整新部落格設定（樣式、頁面配置、Domain設定等）&lt;/li&gt;
+&lt;li&gt;生成靜態頁面再丟上 Github Pages，就算是搬遷完成了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;1-用-gatsby-建立新專案&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%E7%94%A8-gatsby-%E5%BB%BA%E7%AB%8B%E6%96%B0%E5%B0%88%E6%A1%88&quot; aria-label=&quot;1 用 gatsby 建立新專案 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 用 Gatsby 建立新專案&lt;/h3&gt;
+&lt;p&gt;這部分我卡最久，主要是 Gatsby 生態圈太大，有太多方式可以建立起一個 Gatsby 網站，很多選擇需要決定。&lt;/p&gt;
+&lt;p&gt;我不想花太多時間在搬遷，而是想專注在寫文章，但因為我後續想要深度客製化我的部落格，所以花了不少時間在思考各個方案：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自己架、或是託管在 Gatsby Cloud 上？ &lt;strong&gt;自己架，比較容易客製化，也不用花錢&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;需不需要 CMS？要的話要哪套？ &lt;strong&gt;先不用，CMS 我不熟，研究起來沒完沒了，先成功搬遷我 30 篇文章即可&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;靜態檔要 Host 在哪裡？ &lt;strong&gt;Github Pages，之前就是在這裡，用起來很舒服、穩定，沒有理由換&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;要從頭開始建 Gatsby 專案，還是從 starter 專案開始？ &lt;strong&gt;找 starter 專案開始，想趕快搬遷完成，從頭建太慢&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;於是我瀏覽了 Gatsby 的 &lt;a href=&quot;https://www.gatsbyjs.com/starters/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;starter 列表&lt;/a&gt; ，找了下面這套順眼的樣板開始建專案：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/alxshelepenok/gatsby-starter-lumen/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;gatsby-starter-lumen
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ae24a416f21dfbee4d26b330b964a29/97755/lumen-starter.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB70lEQVQ4y31T226bQBDl6/uah7YP/YX+QqU+tKrUqFIbO2nqC9Thuixgg8FczXKyswYX7CYjHQ3s5czMmR0t+WiAv/kF9n4B4+Y3Hm4e8fPdErcf1vj8dg37MQGZaIXyXdcpkLVtC/kHdxPh4fsT8qyEljU1UhT4v3VoRYOqqtXlS8KqrFDXNRx9i9kXE8WhhoZO3QN3ODyLYRtuEQYRdtsdOkEEI/rRz/h7bNoQ0XVdWJYFx3HgeR64F6BtpmUOEOK0zp5i/PikY/bVRFU0A+ELkaUTohvtXWe083PcfzOxvmNo6rYn7KOZ81twUz9d7ddIt+VyCXNjwLfWcG0LYRjC933YtoN9Gk8Vl8G1IQPn7wqR704OUGlEwDmHLaVwXQ+MMSWJbdtgHsM+2SORGHi0gTk75BIH2dESZVmqtVYSMp8rAiazIh9FEbIsw0Ge3e+JLFGYEJLRoTzPFVlVVaq9pGFZi16/Dq/Z0LBzhkkS43g8XpR80nBjSP02C3iujSAI1Iug0odXQWtXJcdxjKIoJp0ea+jz4KwfeWoMgcip5KumUKm00TTNOcNWjhsPTl1N01R2NVW6pb0nkFTjKfpHKLMjQhqlYVNI1MfXtXtRQypPDfvF8M/nc8xmd7D0PzAW99B1XYG0W61Wk3IJzy1jNtfaNhw/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6ae24a416f21dfbee4d26b330b964a29/8ac56/lumen-starter.webp 240w,
+/static/6ae24a416f21dfbee4d26b330b964a29/d3be9/lumen-starter.webp 480w,
+/static/6ae24a416f21dfbee4d26b330b964a29/e46b2/lumen-starter.webp 960w,
+/static/6ae24a416f21dfbee4d26b330b964a29/f992d/lumen-starter.webp 1440w,
+/static/6ae24a416f21dfbee4d26b330b964a29/882b9/lumen-starter.webp 1920w,
+/static/6ae24a416f21dfbee4d26b330b964a29/16df7/lumen-starter.webp 2536w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6ae24a416f21dfbee4d26b330b964a29/8ff5a/lumen-starter.png 240w,
+/static/6ae24a416f21dfbee4d26b330b964a29/e85cb/lumen-starter.png 480w,
+/static/6ae24a416f21dfbee4d26b330b964a29/d9199/lumen-starter.png 960w,
+/static/6ae24a416f21dfbee4d26b330b964a29/07a9c/lumen-starter.png 1440w,
+/static/6ae24a416f21dfbee4d26b330b964a29/29114/lumen-starter.png 1920w,
+/static/6ae24a416f21dfbee4d26b330b964a29/97755/lumen-starter.png 2536w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6ae24a416f21dfbee4d26b330b964a29/d9199/lumen-starter.png&quot;
+            alt=&quot;lumen starter&quot;
+            title=&quot;lumen starter&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;按照裡面的教學建立起了專案：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; global &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; gatsby-cli &lt;span class=&quot;token comment&quot;&gt;# 若沒 gatsby-cli 的話，才須先安裝&lt;/span&gt;
+
+gatsby new my-blog https://github.com/alxshelepenok/gatsby-starter-lumen
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; my-blog
+gatsby develop &lt;span class=&quot;token comment&quot;&gt;# 啟動 local server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;跑完後就可以用瀏覽器開 &lt;code class=&quot;language-text&quot;&gt;http://localhost:8000&lt;/code&gt; 在自己電腦上看到新部落格了&lt;/p&gt;
+&lt;h3 id=&quot;2-把-30-個文章-md-檔移過去&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%E6%8A%8A-30-%E5%80%8B%E6%96%87%E7%AB%A0-md-%E6%AA%94%E7%A7%BB%E9%81%8E%E5%8E%BB&quot; aria-label=&quot;2 把 30 個文章 md 檔移過去 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 把 30 個文章 .md 檔移過去&lt;/h3&gt;
+&lt;p&gt;把 .md 檔放到新專案的 &lt;strong&gt;/content/posts/&lt;/strong&gt; 底下 &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 866px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c964849f3289b3892b752235d9bf6f65/c1328/move-posts.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 107.91666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD90lEQVQ4y4WTa1PbVhCG/T86E8zFji8ytuW7JFuWLF/lK8YmCbQZZpJ2Mm2npiRtKBSwAWOb9lNCuGNw2t/5Zo8EhBRIP7yzR+ecffTurmRR1RoSCR2hkAY1VUMwqCEe1yGIeSTlGjStjoRchCyXjP2UNgOJoigV6GwGgaAKhzMKF8nhEmAJ8SqK2isU1eeoaIvICM+gRZ5ADTVJc0iF55AMNkhNyIEGstICCvJ3yEnzKKcWkadnMVghA1UkImlYwkEFKXkR5fxLlPUXSEQbEII1xMN1QxJJE2aREUlCnWBPoIhNiKEZyEIT8cgshHAVudxLMjYHixBKQnCImIlVsKA0kOY1KB4Zqk+B6lWgkJqChoW4hnpURTkgQ3wcQ3gqSoogQuLtUQQCCjweCRafM4KETULRraExnafkKqpBHYkpEXESi+KECGHCjNKkaNyXr5S0xRGyRTEx6cWjRy7qYTgNBycgKhWRyj6FlqcylArsrhic9MZruW6tTYlwcqKxtjvCGLdysJIsslyGi5LFmI5MqolspmFIFArg3CJJekDizTmbsN3GY2zMDYsk6XASMC6WkM+Qw3SdGjyHcDgDjpO+LrcZmaHH9oAJFMiJ0xmDzycjpcwil51DJtuA1yvDzRw8CBRvzh2s5HGPCfRdJbrcApKJGvTcvAH1+xV6kWCeUXQ6BCNer90uAnIm0EmDnaShGMCYW8cr3xZ+8G3ip9AOltN7+K3wN5a1AVrJXfyS6NLeAG/ye1hSevg11cebwl/4WdjB994N/OjfQZV7gUn7NKxjNJQkV8cGf4o1/gh/Bg7R0U7R00fopUfYK/6DXmaEzcgJ2sKZETejp2jHzrAeOsaqn+7zF/jWswyrjTOBMlfDKn+At/73+COwjw3tCN3SEL3SJbr60Nh763t/V36md1jnT/DM0/oSuMYfYsW/T8kfsJk+NkC9wiV6xUvsZM6xFj7Aim/fuHNbDMqqm/csYWzK/R8gfwVMHWO3OES/NEJbPsFa5BCrwQPj7Doa4j98ARy/45ABycWyeIxOeYS+foFtcrelnaGbH2InOzQcs1aw9VroAL9732EjYAKttnscrhKwJR2jXTKBLHE7fY5dWvcrI3TpuU8v6+YvsC4cYYX6u+6jHnItKtlFQM9dhy3xCG1KGhQvPwMLFxgwYG5owJiY2+3sGTqRczzztvCN1U7/8z3AJenrwF390ni+/gr2cv/iefA1rFMP9HDppuRbQHLUv+odg7EW9HTTYU/9iKfu1v/0sPIRA+Yg93kYg6rpkIENh6yC/LkBnJ+mKds99zt8TT3ssLIomU2YiUGZOslTY+Id5RRbqTO01RN0oueGw+vP5hOGSV848m2IhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/c964849f3289b3892b752235d9bf6f65/8ac56/move-posts.webp 240w,
+/static/c964849f3289b3892b752235d9bf6f65/d3be9/move-posts.webp 480w,
+/static/c964849f3289b3892b752235d9bf6f65/e299d/move-posts.webp 866w&quot;
+              sizes=&quot;(max-width: 866px) 100vw, 866px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/c964849f3289b3892b752235d9bf6f65/8ff5a/move-posts.png 240w,
+/static/c964849f3289b3892b752235d9bf6f65/e85cb/move-posts.png 480w,
+/static/c964849f3289b3892b752235d9bf6f65/c1328/move-posts.png 866w&quot;
+            sizes=&quot;(max-width: 866px) 100vw, 866px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/c964849f3289b3892b752235d9bf6f65/c1328/move-posts.png&quot;
+            alt=&quot;搬遷所有文章&quot;
+            title=&quot;搬遷所有文章&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然後調整各文章的 metadata，符合新專案的命名和格式，重點是 draft 要設成 false，才能看到文章！&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/88efe16ad2df85a3eb2aeff3e11e6726/ea64c/update-post-metadata.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.91666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACQUlEQVQ4y4VT23KiQBD1J9YkRtCZKAiIoAICXgDxhprENeZha2v/IK/7/Wd7Rktds5V9ONU9TU/TfU5PKYlekQ2WCPtLmOYQlhkfYQ1PiK/sbTz+FC8tRj+RD/ZIgj2cToJ2O0abEgwjgilgRkffPJ4v8UsRwyBrxDJW4g0H/MlBU3PRIN9o9emDL9FsutCaXWhaT/oCui78Lji3UatZYHUTtkHW7sncUr3Whk4XsmwDz5tgvTlgt/uBw+EX4jinjgP4fgLHiQgh+v0xer0hFXXw+NiEomhUVIfKDKhqiwrW27LyeLxEFOWIRzN4wQRF8Ybt9h2z2Qum0y0mk5UsJorn+TOSpEAQJOh2hxiNluSnl4Kc2UjTNVar7/JSUewxn7/Sxa2Mt1o9MGahTuMJy3n7fK7VDOkLqyj6pUPRgRhP/EUk3N9zlMsMd3dMjlatameI83Xs2i9x3pHk6npXjiK4enh4kn87XtRQqTRksoj9D9ShjWbDhU+CCBHm8xdS1ZXchOFUcia4tSz/JIL+V7e3kCMbho9i/Y4k3ZywJqIXUnWBwSCD68bngl92yJkD20kx2f2GPf2AO/uAEzxDrFO1alKSKa2q0q5RLmOdLyE5lGh0Ua3Z0gpOxd+Eckcc1RSCKQpBPeFfHTJaGc7pFegRXG8Lp7dBQwuhmxN6QR5aZK1OjvI3VSpfEYoKkUg4yZtywyEjUcTTCsMcnp8RUhJhRote0PKuSZSM1mlA5wWGwzntpAPVClB3R6iz1if1/wDCNqmRbulyvwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/88efe16ad2df85a3eb2aeff3e11e6726/8ac56/update-post-metadata.webp 240w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/d3be9/update-post-metadata.webp 480w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/e46b2/update-post-metadata.webp 960w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/36c36/update-post-metadata.webp 1116w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/88efe16ad2df85a3eb2aeff3e11e6726/8ff5a/update-post-metadata.png 240w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/e85cb/update-post-metadata.png 480w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/d9199/update-post-metadata.png 960w,
+/static/88efe16ad2df85a3eb2aeff3e11e6726/ea64c/update-post-metadata.png 1116w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/88efe16ad2df85a3eb2aeff3e11e6726/d9199/update-post-metadata.png&quot;
+            alt=&quot;更新 metadata&quot;
+            title=&quot;更新 metadata&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-調整新部落格設定（樣式、頁面配置、domain設定等）&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%E8%AA%BF%E6%95%B4%E6%96%B0%E9%83%A8%E8%90%BD%E6%A0%BC%E8%A8%AD%E5%AE%9A%EF%BC%88%E6%A8%A3%E5%BC%8F%E3%80%81%E9%A0%81%E9%9D%A2%E9%85%8D%E7%BD%AE%E3%80%81domain%E8%A8%AD%E5%AE%9A%E7%AD%89%EF%BC%89&quot; aria-label=&quot;3 調整新部落格設定（樣式、頁面配置、domain設定等） permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 調整新部落格設定（樣式、頁面配置、Domain設定等）&lt;/h3&gt;
+&lt;p&gt;再來就是調整細部內容成我想要的樣子，部落格 title、社群連結、網址、Disqus連結、favicon 等，主要是調整 &lt;strong&gt;config.js&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  url&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://www.easonchang.com&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  pathPrefix&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Eason\&apos;s Playground - blog by Eason Chang&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  subtitle&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Let\&apos;s make something awesome!\n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  copyright&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;© All rights reserved.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  disqusShortname&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;xxxxxxxxxxxxx&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  postsPerPage&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  googleAnalyticsId&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;G-XXXXXXXXX&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  useKatex&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  menu&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      label&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;文章&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      path&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      label&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;關於我&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      path&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/pages/about&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      label&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;專案&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      path&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/pages/projects&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  author&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Eason Chang&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    photo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/bio-img.jpeg&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    bio&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hi, I am Eason!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    contacts&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      email&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;eason@easonchang.com&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      facebook&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;chang.ying.hsiang&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      telegram&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      twitter&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      github&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Kamigami55&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      rss&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      vkontakte&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      linkedin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;easonchang101&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      instagram&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      line&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      gitlab&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      weibo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      codepen&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      youtube&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      soundcloud&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      medium&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;4-生成靜態頁面再丟上-github-pages，就算是搬遷完成了&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%E7%94%9F%E6%88%90%E9%9D%9C%E6%85%8B%E9%A0%81%E9%9D%A2%E5%86%8D%E4%B8%9F%E4%B8%8A-github-pages%EF%BC%8C%E5%B0%B1%E7%AE%97%E6%98%AF%E6%90%AC%E9%81%B7%E5%AE%8C%E6%88%90%E4%BA%86&quot; aria-label=&quot;4 生成靜態頁面再丟上 github pages，就算是搬遷完成了 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 生成靜態頁面再丟上 Github Pages，就算是搬遷完成了&lt;/h3&gt;
+&lt;p&gt;我原本的 Hexo 部落格就是架在 Github Pages 上，repo 是 &lt;a href=&quot;https://github.com/Kamigami55/Kamigami55.github.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Kamigami55/Kamigami55.github.io&lt;/a&gt; ，網址會是 &lt;a href=&quot;https://Kamigami55.github.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Kamigami55.github.io&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;另外原本就還有在 GoDaddy 上買網域指向這個位置，所以部落格最終網址會是
+&lt;a href=&quot;https://www.easonchang.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.easonchang.com/&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;而我現在做的動作是把舊 repo 改名封存，重開一個新的 &lt;strong&gt;Kamigami55/Kamigami55.github.io&lt;/strong&gt; repo，並把剛剛編輯好的 gatsby 專案 push 到 master branch 存放原始碼。&lt;/p&gt;
+&lt;p&gt;然後在終端機執行以下指令，建立新部落格的靜態檔，並會自動 push 到 gh-pages branch。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;最後在 Github repo 設定頁開啟 Github Pages 功能，按照下圖的方式設定：&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ffbaaa7799bc6cc99ebca44e9d987895/8963a/pages-setting.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACNElEQVQ4y42U2XKrMBBEec2NDWIHsa8GY+wkdipV+f//6tsSkMriVOXheMaUGEbdIxk7EWDvRBCe1DhBCttPddxQ/y03xt4O9VqNyu9ghEmFdpjRjRfIvMWD6eLR8vFPYXo6PlqefvYZ3ci9gpaXwIlq+CSISzgeu/ITjcvuXN1lBi/MdXTX3OZ7O4tFRaiLbxgizOB3A+LhgGIekB3JeEJ+nJFPZ+YTZNsi7XsdZdfpPKwqCClhJwlZohXEMMwggtfkEHWy0GQQZUNqHe2igikjjfUJkcSwUxZL5ULGgiELumx9nl7QVCPqYkCRtaiKDk3Zo2SMs4a0CNMWdtzB8rJFv29b3TQ1Ujr70s+4HZ/x/vSGuR7xdrqRK6a8R0yjzF8cvWuKw4KX+Upu7PKAVJaajO4naQ07LKhNqRd/7+h7d7qgyZlqj0+Ynt/Qjk+w6apYcWiY8DOY5M8dqiH12Y1ix/zB9D7mbNFKfT34e8FAaUi9rudXTNTyUA3ImxFyNURFma/mUM+IMniSUsgepprFj+1uprgSEzWbuPDMF1UeMt/b0Y/T8eWkbIivp8bY8cdPG0TlAQ5PiqAJ6uzaq4bLeU50dKMcbqjgc64TIYc7qmBpjdcO1RfydkZ/eUc1XFGNN/4/IaXjGbefch6T6oiIM6q2q7pX59/jx03OpCpmusmqtS4Y8BLghUAz1APLjfTN8hml1Z7S/BiVO6YZATWr+xPKboIfF/p2+Tlnv98uG9va/zVYl42WyR8PAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/ffbaaa7799bc6cc99ebca44e9d987895/8ac56/pages-setting.webp 240w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/d3be9/pages-setting.webp 480w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/e46b2/pages-setting.webp 960w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/f992d/pages-setting.webp 1440w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/c5cbd/pages-setting.webp 1918w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/ffbaaa7799bc6cc99ebca44e9d987895/8ff5a/pages-setting.png 240w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/e85cb/pages-setting.png 480w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/d9199/pages-setting.png 960w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/07a9c/pages-setting.png 1440w,
+/static/ffbaaa7799bc6cc99ebca44e9d987895/8963a/pages-setting.png 1918w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/ffbaaa7799bc6cc99ebca44e9d987895/d9199/pages-setting.png&quot;
+            alt=&quot;Pages設定&quot;
+            title=&quot;Pages設定&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;就可以看到全新的部落格上線了！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.easonchang.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.easonchang.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6a51e343ab3768633954c68472e60b4a/8bd7d/new-blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABnklEQVQ4y41T2W7CMBDk/z+o6mtLH6GtCFCaIAS5CEog9w2ZetwmSqhAWDLrYHt2Znc8ghiT8SsWH+9c4nK5oGkauQ7CELZlIgs9BIEP3/dRliVuDd4bcfHy/ITJ2/j3zx6g53lYLhcwdB3z+RyKomC/3yPPc2RZhqIoZORs74y4KMoKfhCiqqouE0cUxdANA6ZpwTkcJDteDgXzOI6RpqmMnFQmAfnDTJU43AIxcpZ1Iw42eHR0kimjz64vWVO/YW7XWK2+sN1u4TgOjsdjx6gPNmBIOefzebDpui6m0ylUTRO1XEITkXVkPTebDXa7HWzblucGgGTH2tR1PQDMiwpJkqIWidqkPMemJEkiaxlF0eBeB9japS+ZgEVeAOfyofp1DPlBuW1d2k3KmU4mWCqfUGYzrNdrKVMXNiJbMmMkoYFtrjN1xg4CGMI2umHKyIYQ0LIsGU3TlEm4949hH+g30Dbi5fytrwdZURVZ9ps5ulcPaRvR2cC1cfJcYS9HsqGh7/rwFuDpdJKS+FIokVZRVVXWlq+DXW5fS3vnB7hy7d1ZSp8sAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6a51e343ab3768633954c68472e60b4a/8ac56/new-blog.webp 240w,
+/static/6a51e343ab3768633954c68472e60b4a/d3be9/new-blog.webp 480w,
+/static/6a51e343ab3768633954c68472e60b4a/e46b2/new-blog.webp 960w,
+/static/6a51e343ab3768633954c68472e60b4a/f992d/new-blog.webp 1440w,
+/static/6a51e343ab3768633954c68472e60b4a/882b9/new-blog.webp 1920w,
+/static/6a51e343ab3768633954c68472e60b4a/aacf5/new-blog.webp 2358w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6a51e343ab3768633954c68472e60b4a/8ff5a/new-blog.png 240w,
+/static/6a51e343ab3768633954c68472e60b4a/e85cb/new-blog.png 480w,
+/static/6a51e343ab3768633954c68472e60b4a/d9199/new-blog.png 960w,
+/static/6a51e343ab3768633954c68472e60b4a/07a9c/new-blog.png 1440w,
+/static/6a51e343ab3768633954c68472e60b4a/29114/new-blog.png 1920w,
+/static/6a51e343ab3768633954c68472e60b4a/8bd7d/new-blog.png 2358w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6a51e343ab3768633954c68472e60b4a/d9199/new-blog.png&quot;
+            alt=&quot;全新 Eason&amp;#39;s Playground 部落格&quot;
+            title=&quot;全新 Eason&amp;#39;s Playground 部落格&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;troubleshooting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#troubleshooting&quot; aria-label=&quot;troubleshooting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Troubleshooting&lt;/h2&gt;
+&lt;h3 id=&quot;調整每頁的顯示的文章數量&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%AA%BF%E6%95%B4%E6%AF%8F%E9%A0%81%E7%9A%84%E9%A1%AF%E7%A4%BA%E7%9A%84%E6%96%87%E7%AB%A0%E6%95%B8%E9%87%8F&quot; aria-label=&quot;調整每頁的顯示的文章數量 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;調整每頁的顯示的文章數量&lt;/h3&gt;
+&lt;p&gt;我找的模板預設每頁只顯示 4 篇文章，實在太少了，我想改成每頁顯示 10 篇文章。&lt;strong&gt;config.js&lt;/strong&gt; 內有 &lt;strong&gt;postsPerPage&lt;/strong&gt; 參數可以直接調整，但調了以後無效。&lt;/p&gt;
+&lt;p&gt;研究了大半天後發現應該是 gatsby 傳遞 context 時 type 沒有設定到，需要修改 &lt;strong&gt;/src/types/index.js&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; type PageContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  tag&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  category&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  currentPage&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  prevPagePath&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  nextPagePath&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  hasPrevPage&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; boolean&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  hasNextPage&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; boolean&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  postsLimit&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number &lt;span class=&quot;token comment&quot;&gt;// &amp;lt;--- add this&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我有在 &lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen/issues/660#issuecomment-778575664&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;這個 issue&lt;/a&gt; 回覆一些想法，研究更清楚後若確定是個 bug，會發 PR 把它修掉。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;心得＆未來方向&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%BF%83%E5%BE%97%EF%BC%86%E6%9C%AA%E4%BE%86%E6%96%B9%E5%90%91&quot; aria-label=&quot;心得＆未來方向 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;心得＆未來方向&lt;/h2&gt;
+&lt;p&gt;整個搬遷花了我一整天的時間，以前的設定太久沒碰，又沒有寫文章記錄，真的會忘光光，很浪費之前投入的時間，於是這次決定一定要寫文章紀錄自己搬遷的流程，給未來的自己備忘。&lt;/p&gt;
+&lt;p&gt;未來應該還會寫很多部落格調校文章，還有很多東西想修改，像是深度客製化樣式、加入 GA 追蹤、深色主題、文章編輯流程優化等，期待後續的發展！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【專案】科幻風造型獎盃]]></title><description><![CDATA[科幻風造型獎盃，是我在2017年11月時，受新竹黑客松官方委託打造的，希望能呈現出科技感、及體現創客們的創造力。]]></description><link>https://www.easonchang.com/posts/scifi-trophy/</link><guid isPermaLink="false">https://www.easonchang.com/posts/scifi-trophy/</guid><pubDate>Wed, 04 Apr 2018 00:31:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;簡介&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B0%A1%E4%BB%8B&quot; aria-label=&quot;簡介 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;簡介&lt;/h2&gt;
 &lt;p&gt;科幻風造型獎盃，是我在2017年11月時，受新竹黑客松官方委託打造的，希望能呈現出科技感、及體現創客們的創造力。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
