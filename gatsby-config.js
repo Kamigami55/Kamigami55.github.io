@@ -239,6 +239,8 @@ module.exports = {
       }
     },
     'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs'
+    'gatsby-plugin-optimize-svgs',
+    'gatsby-redirect-from',
+    'gatsby-plugin-meta-redirect' // make sure this is always the last one
   ]
 };
