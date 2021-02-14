@@ -2,7 +2,7 @@
 title: 部落格搬遷紀錄，用 Gatsby.js 取代 Hexo
 author: Eason Chang
 description: "當完兵過年期間閒的蛋疼，想要嘗試新技術，於是決定用 Gatsby.js 來重架部落格啦！"
-category: Tech
+category: Blog
 tags:
   - Blog
   - Gatsby
