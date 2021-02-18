@@ -53,6 +53,7 @@ Facebook 粉專：[Eason's blog (@eason.blog)](https://www.facebook.com/eason.bl
 - Facebook 個人塗鴉牆：[Eason Chang (@chang.ying.hsiang)](https://www.facebook.com/chang.ying.hsiang)
 - Github 個人頁面：[@Kamigami55](https://github.com/Kamigami55)
 - LinkedIn 個人頁面：[@easonchang101](https://www.linkedin.com/in/easonchang101/)
+- 我的履歷 Resume：[Resume](https://www.cakeresume.com/eason-chang)
 
 想交朋友、合作、或是有任何指教，歡迎主動聯繫我:)
 
