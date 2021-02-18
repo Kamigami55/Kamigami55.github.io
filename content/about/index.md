@@ -2,6 +2,8 @@
 title: "關於我"
 template: "page"
 socialImage: "./Iron-Man-3.jpg"
+redirect_from:
+- /pages/about/
 ---
 
 > I create, therefore I am.

@@ -17,11 +17,11 @@ module.exports = {
     },
     {
       label: '關於我',
-      path: '/pages/about'
+      path: '/about'
     },
     {
       label: '專案',
-      path: '/pages/projects'
+      path: '/projects'
     }
   ],
   author: {

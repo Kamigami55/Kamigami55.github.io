@@ -2,6 +2,10 @@
 title: "專案"
 template: "page"
 socialImage: "./projects.png"
+redirect_from:
+- /pages/projects/
+- /pages/project/
+- /project/
 ---
 
 ## 智慧手套 Smart Gloves
