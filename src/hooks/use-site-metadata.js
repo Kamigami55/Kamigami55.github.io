@@ -33,6 +33,7 @@ const useSiteMetadata = () => {
             menu {
               label
               path
+              target
             }
             url
             title

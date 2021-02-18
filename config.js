@@ -22,6 +22,11 @@ module.exports = {
     {
       label: '專案',
       path: '/projects'
+    },
+    {
+      label: '履歷',
+      path: 'https://www.cakeresume.com/eason-chang',
+      target: '_blank'
     }
   ],
   author: {
