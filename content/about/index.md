@@ -48,12 +48,11 @@ Facebook 粉專：[Eason's blog (@eason.blog)](https://www.facebook.com/eason.bl
 如果你想要聯繫我，你可以在以下地方找到我：
 
 - 我的 Email：[eason@easonchang.com](mailto:eason@easonchang.com)
-- 個人部落格：[Eason's Playground](https://www.easonchang.com/)**（你正在這裡！）**
+- 個人部落格：[Eason's Playground](https://www.easonchang.com/) **（你正在這裡！）**
 - Facebook 粉絲專頁：[Eason's blog (@eason.blog)](https://www.facebook.com/eason.blog/)
 - Facebook 個人塗鴉牆：[Eason Chang (@chang.ying.hsiang)](https://www.facebook.com/chang.ying.hsiang)
 - Github 個人頁面：[@Kamigami55](https://github.com/Kamigami55)
 - LinkedIn 個人頁面：[@easonchang101](https://www.linkedin.com/in/easonchang101/)
-- Hackmd 開源筆記：[楹神學習筆記XD](https://hackmd.io/c/BkfkApulZ/)
 
 想交朋友、合作、或是有任何指教，歡迎主動聯繫我:)
 
